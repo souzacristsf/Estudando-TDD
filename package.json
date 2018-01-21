@@ -4,6 +4,8 @@
   "description": "Estudo sobre TDD",
   "main": "index.js",
   "scripts": {
+    "lint": "./node_modules/.bin/eslint src/*.js",
+    "pre-push": "npm run lint",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -20,5 +22,10 @@
   "bugs": {
     "url": "https://github.com/souzacristsf/Estudando-TDD/issues"
   },
-  "homepage": "https://github.com/souzacristsf/Estudando-TDD#readme"
+  "homepage": "https://github.com/souzacristsf/Estudando-TDD#readme",
+  "devDependencies": {
+    "eslint": "^4.16.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.8.0"
+  }
 }
