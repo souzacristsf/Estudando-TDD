@@ -1,0 +1,24 @@
+{
+  "name": "estudando-tdd",
+  "version": "1.0.0",
+  "description": "Estudo sobre TDD",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/souzacristsf/Estudando-TDD.git"
+  },
+  "keywords": [
+    "JS",
+    "TDD",
+    "library"
+  ],
+  "author": "Michel Ferreira Souza <souza_crists@hotmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/souzacristsf/Estudando-TDD/issues"
+  },
+  "homepage": "https://github.com/souzacristsf/Estudando-TDD#readme"
+}
